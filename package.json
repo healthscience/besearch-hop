@@ -1,6 +1,6 @@
 {
   "name": "besearch-hop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Besearch cycle management for HOP",
   "main": "src/index.js",
   "type": "module",
