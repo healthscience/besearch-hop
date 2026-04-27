@@ -1,11 +1,12 @@
 import EventEmitter from 'events'
 
 class Besearch extends EventEmitter {
-  constructor(Holepunch, SafeFlow, HeliClock) {
+  constructor(context) {
     super()
-    this.holepunch = Holepunch
-    this.safeflow = SafeFlow
-    this.heliclock = HeliClock
+    this.context = context
+    this.holepunch = context.network
+    this.safeflow = context.safeflow
+    this.heliclock = context.heliclock
     this.initialized = false
     this.cycles = []
   }

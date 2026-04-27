@@ -1,6 +1,6 @@
 {
   "name": "besearch-hop",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Besearch cycle management for HOP",
   "main": "src/index.js",
   "type": "module",
@@ -10,6 +10,6 @@
   "author": "aboynejames",
   "license": "GPL-3.0",
   "dependencies": {
-    "heliclock-hop": "file:../heliclock-hop"
+    "heliclock-hop": "^0.2.7"
   }
 }
